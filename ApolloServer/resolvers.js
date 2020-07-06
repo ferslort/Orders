@@ -5,13 +5,14 @@ const Product = require('../models/Product');
 const Order = require('../models/Order');
 const mongoose = require('mongoose');
 const moment = require('moment');
-import bcryptjs from 'bcryptjs';
+const bcryptjs = require('bcryptjs')
 const jwt = require('jsonwebtoken');
-import cloudinary from 'cloudinary'
-import shortid from "shortid";
-import { createWriteStream, mkdir } from "fs";
-import fs from 'fs-extra';
+const cloudinary = require('cloudinary');
+const shortid = require('shortid');
+const {createWriteStream, mkdir} = require('fs');
+const fs = require('fs-extra');
 require('dotenv').config();
+
 
 
 cloudinary.config({
