@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Sistema de pedido para restaurants",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon -r esm ."
+  },
+  "author": "Fernando Padilla",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.15.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.22.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "fs-capacitor": "^6.2.0",
+    "fs-extra": "^9.0.1",
+    "graphql": "^15.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.20",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
